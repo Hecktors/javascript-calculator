@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+  <link rel="stylesheet" href="./style.css">
+  <title>Javacript Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <h1 class="label">Javascript Calculator</h1>
+      <div class="display-container">
+        <div id="display" class="display text-right">0
+        </div>
+      </div>
+      <div class="keyboard text-center">
+        <div class="row">
+          <div class="col-3"><button id="clear" class="btn red" type="button" value="AC">AC</button></div>
+          <div class="col-3"><button id="clearEntry" class="btn red" type="button" value="CE">CE</button></div>
+          <div class="col-3"><button id="invert" class="btn" type="button" value="">+/-</button></div>
+          <div class="col-3"><button id="divide" class="btn" type="button" value="/">&divide;</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3"><button id="seven" class="btn" type="button" value=7>7</button></div>
+          <div class="col-3"><button id="eight" class="btn" type="button" value="8">8</button></div>
+          <div class="col-3"><button id="nine" class="btn" type="button" value="9">9</button></div>
+          <div class="col-3"><button id="multiply" class="btn" type="button" value="x">&times;</button></div>
+        </div>
+        <div class="row">
+          <div class="col-3"><button id="four" class="btn" type="button" value="4">4</button></div>
+          <div class="col-3"><button id="five" class="btn" type="button" value="5">5</button></div>
+          <div class="col-3"><button id="six" class="btn" type="button" value="6">6</button></div>
+          <div class="col-3"><button id="subtract" class="btn" type="button" value="-">-</button></div>
+        </div>
+        <div class="row">
+          <div class="col-9">
+            <div class="row">
+              <div class="col-4"><button id="one" class="btn" type="button" value="1">1</button></div>
+              <div class="col-4"><button id="two" class="btn" type="button" value="2">2</button></div>
+              <div class="col-4"><button id="three" class="btn" type="button" value="3">3</button></div>
+            </div>
+            <div class="row">
+              <div class="col-4"><button id="zero" class="btn" type="button" value="0">0</button></div>
+              <div class="col-4"><button id="decimal" class="btn" type="button" value=".">.</button></div>
+              <div class="col-4"><button id="equals" class="btn" type="button" value="=">=</button></div>
+            </div>
+          </div>
+          <div class="col-3"><button id="add" class="btn add" type="button" value="+">+</button></div>
+        </div>
+      </div> <!-- /keyboard -->
+    </div> <!-- /main -->
+  </div> <!-- /container -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
